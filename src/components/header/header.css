@@ -1,0 +1,53 @@
+.icon {
+    background: url('../../images/jd-sprites.png') no-repeat;
+    background-size: 200px 200px;
+}
+header {
+    width: 100%;
+    height: 45px;
+    max-width: 640px;
+    min-width: 320px;
+    background: pink;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;    
+}
+.header {
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    position: relative;
+}
+.header .logo {
+    height: 21px;
+    width: 56px;
+    display: inline-block;
+    background-position: left -108px;
+    margin-top: 6px;
+}
+.header .search {
+    height: 34px;
+    width: 60%;
+    margin: 0 10px;
+    border: none;
+    border-radius: 17px;
+    font-size: 18px;
+    text-indent: 30px;
+}
+.login {
+    height: 100%;
+    line-height: 34px;
+    color: #fff;
+    font-size: 18px;
+}
+.searchIcon {
+    position: absolute;
+    top: 7px;
+    left: 72px;
+    z-index: 10;
+    height: 20px;
+    width: 20px;
+    background-position: -59px -110px;
+}
