@@ -1,10 +1,14 @@
-export const get = (url,data,callback) => {
-    let xml = new XMLHttpRequest()
-    xml.open("GET",url)
-    xml.send(null)
-    xml.addEventListener('readystatechange',()=>{
-        if(xml.readyState === 4 && xml.status == 200) {
-            console.log(xml.responseText)
-        }
-    })
+
+export const get = (url,data,jsonpcallback,callback) => {
+    let cbName = 'cb' + get.count++
+    let callbackName = 'window.get.' + cbName
+    window.get[cbName] = function (data) {
+        callback(data)
+    }
+    let script = document.createElement('script')
+    script.src = `${url}?callback=${callbackName}`
+    document.body.appendChild(script)
+    // callback()
 }
+get.count = 0
+window.get = get

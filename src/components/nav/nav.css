@@ -1,0 +1,18 @@
+.navWrap {
+    overflow: hidden;
+    background: #fff;
+}
+.item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+.item img {
+    width: 40px;
+    height: 40px;
+}
+.item p {
+    color: #000;
+    font-size: 14px;
+}

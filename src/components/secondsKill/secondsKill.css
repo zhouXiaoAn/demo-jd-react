@@ -1,0 +1,43 @@
+.secondsKill {
+    margin-top: 5px;
+    background: #fff;
+    padding: 5px;
+}
+.title {
+    /* display: flex; */
+}
+.title .time {
+    display: inline-block;
+}
+.title .more {
+}
+.title>span {
+    font-size: 15px;
+}
+.secondsKill .clock {
+    float: left;
+    width: 20px;
+    height: 21px;
+    background-position: -83px -110px;
+}
+.secondsKill .timer {
+    float: left;
+}
+.secondsKill .timer span {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+}
+.more span {
+    color: #666;
+    font-size: 12px;
+}
+.more .more_icon {
+    background-position: -184px -49px;
+    height: 15px;
+    width: 10px;
+    margin-top: 5px; 
+}
