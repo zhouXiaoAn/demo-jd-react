@@ -1,0 +1,19 @@
+.more_product {
+    border-top: solid 1px #eee;
+}
+.more_product .top, .middle {
+    display: flex;
+    overflow: hidden;
+}
+.top>.link_more,.middle>.link_more {
+    flex: 1
+}
+.bottom {
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    padding: 8px;
+    background: #f3f5f7;
+}
+.bottom .swiper-wrapper {
+    /* overflow: hidden; */
+}

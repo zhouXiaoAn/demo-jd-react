@@ -1,0 +1,23 @@
+.product_item {
+    width: 33.33%;
+}
+.product_item img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 5px auto;
+    border-right: 1px solid #ddd;
+}
+.product_item p {
+    text-align: center;
+    margin-top: 5px;
+}
+.product_item .sprice {
+    font-size: 14px;
+    color: #ed5657;
+}
+.product_item .price {
+    font-size: 10px;
+    color: #888;
+    text-decoration: line-through;
+}
